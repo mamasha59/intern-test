@@ -1,0 +1,33 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+button{
+    width: fit-content;
+    margin-bottom: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+th{
+    border: 1px solid rgb(151, 116, 28);
+    padding: 10px;
+}
+table{
+    border: 1px solid grey;
+}
+.blue{
+    background-color: rgba(22, 15, 228, 0.7);
+}
+.green{
+    background-color: green;
+}
+td{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+}

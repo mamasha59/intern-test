@@ -1,0 +1,231 @@
+:root{
+    --btn-bg-color:linear-gradient(90deg, #FDD446 0%, #F79B47 100%);
+    --text-colot: #000000
+}
+
+.body{
+    padding-top: 10px;
+    /* font-family: 'Istok Web', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 320px;
+    margin: 0 auto;
+    color: var(--text-colot);
+}
+.header{
+    margin-bottom: 30px;
+}
+.header__strip{
+    height: 12px;
+    width: 30px;
+}
+.header__strip span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    cursor: pointer;
+    background: #000000;
+}
+.header__strip span:nth-child(1) {
+    top: 0px;
+}
+.header__strip span:nth-child(2) {
+    top: 4px;
+}
+.header__strip span:nth-child(3) {
+    top: 9px;
+}
+
+.form__search-input{
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 7px 0 7px 42px;
+}
+.form__search-input::placeholder{
+    font-size: 18px;
+    line-height: 21px;
+}
+.form__search-icon{
+    top: 25%;
+    left: 22px;
+}
+.form__seacrh-block{
+    margin-bottom: 15px;
+}
+.form__search-filter{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 3px 13px;
+}
+.form__search-filter:nth-child(1){
+    max-width: 118px;
+}
+.form__search-filter:nth-child(2){
+    max-width: 163px;
+}
+.form__search-filter-icon{
+    right: 10px;
+    top: 12px;
+}
+.form__search-filter-block{
+    gap: 7px;
+}
+.form__search-decor{
+    position: absolute;
+    width: 154px;
+    height: 142px;
+    left: -43px;
+    top: 35px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(38.0988px);
+    z-index: -1;
+}
+
+.main-block{
+    padding: 20px 0 88px 0;
+}
+.gap{
+    gap: 16px;
+}
+.card{
+    max-width: 136px;
+    border-radius: 15px;
+    padding: 5px 5px 8px 5px;
+    border: 0.44px solid rgba(48, 47, 46, 0.7);
+    background-color: transparent;
+}
+.card__slogan{
+    font-family: 'Istok Web';
+    font-weight: 700;
+    font-size: 8.5px;
+    line-height: 20px;
+}
+.card__img{
+    width: 125.5px;
+}
+.card__title{
+    font-size: 9px;
+    line-height: 11px;
+}
+.card__img-small{
+    max-width: 31px;
+}
+.card__status{
+    font-size: 7px;
+    line-height: 11px;
+    color: #FF9900;
+}
+.card__status-icon{
+    margin-left: 2px;
+    width: 8.7px;
+}
+.card__info{
+    gap: 4px;
+}
+.card__info-block-main{
+    flex: 1 1 70%;
+}
+.card__main-info{
+    font-size: 9px;
+    line-height: 16px;
+}
+.card__main-info_description{
+    font-size: 7px;
+    line-height: 17px;
+    border-radius: 4.35897px;
+    padding: 0 9px;
+    height: 13px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.rare{
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FFC107, #EC851A) border-box;
+    border-radius: 4.35897px;
+    border: 1px solid transparent;
+    padding: 0 8px;
+}
+.price{
+    background: #FDD446;
+}
+
+.card__buy{
+    font-family: 'Istok Web';
+    font-style: normal;
+    background: var(--btn-bg-color);
+    border-radius: 8px;
+    height: 23px;
+    width: 115px;
+    font-size: 10px;
+    line-height: 16px;
+}
+.card__decor{
+    position: absolute;
+    width: 221.62px;
+    height: 203.53px;
+    right: -100px;
+    background: rgba(253, 212, 70, 0.4);
+    filter: blur(54.8558px);
+    z-index: -1;
+    top: 30%;
+}
+
+.card__pagination{
+    max-width: 258px;
+    margin-top: 20px;
+}
+.card__number-page{
+    gap: 20px;
+}
+.card__pagination-number{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+}
+.card__pagination-number:first-child{
+    background: #FDD446;
+    padding: 0 15px;
+}
+.card__arrow-left{
+    margin-right: 20px;
+}
+.card__arrow-right{
+    margin-left: 20px
+}
+.rotate{
+    transform: rotate(180deg); 
+}
+
+.footer{
+    padding: 30px 0 30px 16px;
+    background: #FDD446;
+}
+.footer__decor{
+    position: absolute;
+    width: 498px;
+    height: 457.35px;
+    left: -95px;
+    top: -80%;
+    background: rgba(253, 212, 70, 0.5);
+    filter: blur(123.267px);
+    z-index: -1;
+}
+.footer__logo{
+    width: 49px;
+    top: 31px;
+    right: 20px;
+}
+.footer__links{
+    font-size: 14px;
+    line-height: 24px;
+    gap: 5px;
+}
